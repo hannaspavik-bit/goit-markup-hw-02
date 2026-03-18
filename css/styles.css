@@ -40,3 +40,26 @@ a {
 .address-link {
   color: #434455;
 }
+/* HOVER / FOCUS */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* КНОПКА */
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* HOVER КНОПКИ */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
