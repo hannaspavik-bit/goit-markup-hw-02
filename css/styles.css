@@ -32,6 +32,11 @@ a {
   color: #2e2f42;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 /* КОНТАКТЫ */
 .address {
   font-style: normal;
@@ -40,34 +45,34 @@ a {
 .address-link {
   color: #434455;
 }
-/* HOVER / FOCUS */
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
 
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
 
-/* КНОПКА */
-.hero-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  cursor: pointer;
+/* HERO */
+.hero {
+  background-color: #2e2f42;
 }
 
-/* HOVER КНОПКИ */
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
-}
-/* HERO */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /* FEATURES */
@@ -81,6 +86,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  color: #2e2f42;
 }
 
 .features-text {
@@ -89,6 +95,10 @@ a {
 }
 
 /* TEAM */
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -99,6 +109,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  color: #2e2f42;
 }
 
 .team-position {
@@ -106,50 +117,6 @@ a {
   line-height: 1.5;
 }
 
-/* FOOTER */
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-}
-/* HERO */
-.hero {
-  background-color: #2e2f42;
-}
-
-.hero-title {
-  color: #ffffff;
-}
-
-.hero-button {
-  font-weight: 500;
-}
-
-/* FEATURES */
-.features-subtitle {
-  color: #2e2f42;
-}
-
-/* TEAM */
-.team {
-  background-color: #f4f4fd;
-}
-
-.team-name {
-  color: #2e2f42;
-}
-
-/* FOOTER */
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer-text {
-  color: #f4f4fd;
-}
-
-.footer .logo {
-  color: #ffffff;
-}
 /* PORTFOLIO */
 .portfolio-title {
   font-size: 36px;
@@ -167,4 +134,19 @@ a {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
