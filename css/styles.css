@@ -63,3 +63,51 @@ a {
 .hero-button:focus {
   background-color: #404bbf;
 }
+/* HERO */
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+}
+
+/* FEATURES */
+.features-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+}
+
+.features-subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* TEAM */
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+}
+
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
