@@ -111,3 +111,60 @@ a {
   font-size: 16px;
   line-height: 1.5;
 }
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 500;
+}
+
+/* FEATURES */
+.features-subtitle {
+  color: #2e2f42;
+}
+
+/* TEAM */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-name {
+  color: #2e2f42;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+/* PORTFOLIO */
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+}
+
+.portfolio-name {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
