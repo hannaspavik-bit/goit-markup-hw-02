@@ -76,6 +76,7 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border: none;
   cursor: pointer;
 }
 
@@ -84,7 +85,16 @@ ul {
   background-color: #404bbf;
 }
 
-.features-title,
+.features-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .team-title,
 .portfolio-title {
   font-size: 36px;
@@ -129,6 +139,10 @@ ul {
 
 .footer .logo {
   color: #f4f4fd;
+}
+
+.footer .logo .logo-accent {
+  color: #4d5ae5;
 }
 
 .footer-text {
