@@ -1,28 +1,17 @@
-/* ===== БАЗА СТРАНИЦЫ ===== */
 body {
-  margin: 0; /* убирает стандартный отступ браузера */
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/* ===== СБРОС ДЛЯ ССЫЛОК ===== */
-.logo,
-.nav-link,
-.address-link {
+a {
   text-decoration: none;
 }
 
-/* ===== СБРОС ДЛЯ СПИСКОВ ===== */
-.nav-list,
-.address-list,
-.features-list,
-.team-list,
-.portfolio-list {
+ul {
   list-style: none;
 }
 
-/* ===== ЛОГО ===== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -37,7 +26,6 @@ body {
   color: #4d5ae5;
 }
 
-/* ===== НАВИГАЦИЯ ===== */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -46,7 +34,11 @@ body {
   color: #2e2f42;
 }
 
-/* ===== КОНТАКТЫ ===== */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -58,15 +50,11 @@ body {
   color: #434455;
 }
 
-/* ===== HOVER / FOCUS ===== */
-.nav-link:hover,
-.nav-link:focus,
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
 
-/* ===== HERO ===== */
 .hero {
   background-color: #2e2f42;
 }
@@ -88,7 +76,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  border: none;
   cursor: pointer;
 }
 
@@ -97,7 +84,6 @@ body {
   background-color: #404bbf;
 }
 
-/* ===== ОБЩИЕ СТИЛИ ЗАГОЛОВКОВ СЕКЦИЙ ===== */
 .features-title,
 .team-title,
 .portfolio-title {
@@ -110,7 +96,6 @@ body {
   color: #2e2f42;
 }
 
-/* ===== ОБЩИЕ СТИЛИ ПОДЗАГОЛОВКОВ ===== */
 .features-subtitle,
 .team-name,
 .portfolio-name {
@@ -121,7 +106,6 @@ body {
   color: #2e2f42;
 }
 
-/* ===== ОБЩИЕ СТИЛИ ТЕКСТА ===== */
 .features-text,
 .team-position,
 .portfolio-text,
@@ -131,84 +115,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ===== OUR FEATURES ===== */
-.features {
-  padding: 24px 16px;
-  text-align: left;
-}
-
-.features .features-title {
-  margin: 0 0 16px;
-  text-align: left;
-}
-
-.features-list {
-  margin: 0;
-  padding: 0;
-}
-
-.features-item {
-  margin-bottom: 16px;
-}
-
-.features-item:last-child {
-  margin-bottom: 0;
-}
-
-.features-subtitle {
-  margin: 0 0 8px;
-}
-
-.features-text {
-  margin: 0;
-  max-width: 620px;
-}
-
-/* ===== TEAM ===== */
 .team {
   background-color: #f4f4fd;
 }
 
-/* FIX: photo left, text below, text centered on page */
 .team-item {
-  display: block;
-  width: 100%;
-  margin: 0 0 24px;
   background-color: #ffffff;
-  min-height: auto;
-  position: static;
 }
 
-.team-item:last-child {
-  margin-bottom: 0;
-}
-
-.team-item img {
-  display: block;
-  width: 264px;
-  height: 260px;
-  margin: 0; /* фото остается слева */
-}
-
-.team-text {
-  position: static;
-  left: auto;
-  bottom: auto;
-  transform: none;
-  width: 100%;
-  margin-top: 8px;
-  text-align: center; /* имя и должность по центру страницы */
-}
-
-.team-name {
-  margin: 0 0 8px;
-}
-
-.team-position {
-  margin: 0;
-}
-
-/* ===== FOOTER ===== */
 .footer {
   background-color: #2e2f42;
 }
